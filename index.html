@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Code</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <div>
+          <h1 class="navbar-brand">Алексей Бондаренко</h1>
+        </div>
+        <ul class="menu-items">
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#contact-me">Контакты</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="home-content" id="home-page">
+      <div class="name">
+        <h1>Привет! Меня зовут Алексей</h1>
+        <p>Я начинающий веб-разработчик</p>
+      </div>
+      <div class="angle-down-icon">
+        <a href="#about"><i class="fas fa-angle-down"></i></a>
+      </div>
+    </div>
+  </header>
+  <section class="about-me" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="left-content">
+          <div>
+            <h1 class="about-heading">Обо мне</h1>
+          </div>
+          <img src="myface.png" alt="image" />
+          <p>
+            Мне 22 года и в данный момент я являюсь начинающим специалистом в сфере IT. 
+Вы находитесь на сайте-портфолио, на котором в будущем появятся мои творческие (и не очень) проекты. 
+Вы сможете наблюдать в реальном времени на каком этапе обучения я нахожусь, что уже умею, а что только планирую изучить, 
+в общем следить за моим профессиональным ростом в веб-программировании.
+          </p>
+        </div>
+        <div class="skills">
+          <div class="right-content">
+            <div>
+              <h1 class="skills-heading">Мои скилы</h1>
+            </div>
+            <div class="boxbtn">
+              <button class="changebtn" onclick="al()">Сейчас</button>
+              <button  class="changebtn" onclick="al2()">В планах</button>
+            </div>
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>HTML</span>
+                </div>
+                <div class="progress-line change"id=sub><span class="html"id=subhtml></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line change" id=sub2><span class="css" id="subcss"></span></div>
+                  <div class="bar">
+                    <div class="bar">
+                      <div class="info">
+                        <span>JS</span>
+                      </div>
+                      <div class="progress-line change"id=sub3><span class="javascript" id="subjs"></span></div>
+                      <div class="bar">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="contact" id="contact-me">
+    <div class="container">
+      <div class="contact-content">
+        <h2>Мои контактные данные</h2>
+        <a href="https://codepen.io/alexbon0000" target="blank"><i class="fab fa-codepen"> CodePen</i></a>
+        <a href="https://github.com/alexbon0000" target="blank"><i class="fab fa-github"></i> Github</a>
+        <a href="https://instagram.com/bondarenko2_5?igshid=YmMyMTA2M2Y=" target="blank"><i class="fab fa-instagram"></i> Instagram</a>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+
+</html>
