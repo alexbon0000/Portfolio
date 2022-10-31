@@ -219,22 +219,28 @@ header {
 
 .change .html {
   width: 50%;
+  transition: 2s;
 }
 .change .css {
   width: 40%;
+  transition: 2s;
 }
 .change .javascript {
   width: 20%;
+  transition: 2s;
 }
 
 .change2 .html2 {
   width: 80%;
+  transition: 2s;
 }
 .change2 .css2 {
   width: 60%;
+  transition: 2s;
 }
 .change2 .javascript2 {
   width: 50%;
+  transition: 2s;
 }
 
 .bar .progress-line span::before {
